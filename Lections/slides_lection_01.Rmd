@@ -201,7 +201,7 @@ $$
 .small[
 Пример на данных <font face = "Courier New", color = "brown">Income {ISLR}</font>
 
-```{r plot-01, include = F, cache = T}
+```{r plot-01, include = F}
 # данные
 df.income <- read.csv('https://raw.githubusercontent.com/ranalytics/islr-ru/master/Data/Income2.csv', sep = ',', dec = '.')
 
