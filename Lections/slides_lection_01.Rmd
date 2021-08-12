@@ -962,7 +962,7 @@ $$\begin{array}{} MCC = {TP \cdot TN - FP \cdot FN \over \sqrt{(TP + FP)(TP + FN
 
 - Cкрипты к практикам: [XXX](XXX)   
 
-- Cлайды к лекциям: [XXX](XXX)   
+- Cлайды к лекциям: [https://github.com/aksyuk/MTML/tree/main/Lections](https://github.com/aksyuk/MTML/tree/main/Lections)   
 
   
   
