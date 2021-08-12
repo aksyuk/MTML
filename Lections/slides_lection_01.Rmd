@@ -960,7 +960,7 @@ $$\begin{array}{} MCC = {TP \cdot TN - FP \cdot FN \over \sqrt{(TP + FP)(TP + FN
 
 - Списки ресурсов по ML на английском: [github.com/josephmisiti/awesome-machine-learning](github.com/josephmisiti/awesome-machine-learning)
 
-- Cкрипты к практикам: [XXX](XXX)   
+- Cкрипты к практикам: [https://github.com/aksyuk/MTML/tree/main/Labs](https://github.com/aksyuk/MTML/tree/main/Labs)   
 
 - Cлайды к лекциям: [https://github.com/aksyuk/MTML/tree/main/Lections](https://github.com/aksyuk/MTML/tree/main/Lections)   
 
