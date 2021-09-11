@@ -24,7 +24,7 @@ background-size: cover
 
 ## Лекция 1:  Введение в статистическое обучение
 
-### Светлана Андреевна Суязова (Аксюк) </br> [s.aksuk@kiber-guu.ru](mailto:s.aksuk@kiber-guu.ru)  
+### Светлана Андреевна Суязова (Аксюк) </br> [sa_aksyuk@guu.ru](mailto:sa_aksyuk@guu.ru)  
 
 осенний семестр 2021 / 2022 учебного года
 
