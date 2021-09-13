@@ -91,26 +91,14 @@ $Y$ – категория; 1, 2, ... – *метки*
 
 ---
 
-## Логистическая регрессия  
-
-На примере данных по кредитным картам <font face = "Courier New", color = "brown">Default</font>  
-
-Сгенерированные данные по 10000 держателям кредитных карт. Переменные:  
-- `default` – категории дефолта по карте (да / нет);  
-- `student` – является ли держатель карты студентом (да / нет);  
-- `balance` – баланс кредитной карты, который останется после списания ежемесячного платежа;  
-- `income` – доход держателя карты.  
-
----
-
 ## Логистическая регрессия   
 
-Данные по кредитным картам <font face = "Courier New", color = "brown">Default</font>  
+Сгенерированные данные по 10000 держателям кредитных карт <font face = "Courier New", color = "brown">Default</font>  
 
 ```{r, echo = F}
 library('ISLR')
 
-kable(head(Default))
+kable(head(Default, n = 5))
 
 ```
 
@@ -125,7 +113,7 @@ kable(head(Default))
 $Y = P(\mathrm{default} = \mathrm{Yes} | \mathrm{balance})$
 
  
-$P(X) = \hat{\beta}_0 + \hat{\beta}_1 \cdot X$
+$P(X) = f(\hat{\beta}_0 + \hat{\beta}_1 \cdot X)$
 
 Логистическая функция возвращает для любого X значение из интервала от 0 до 1:  
 
