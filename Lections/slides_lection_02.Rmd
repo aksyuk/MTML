@@ -6,7 +6,7 @@ output:
     nature:
       ratio: '16:9'
       countIncrementalSlides: false
-title: 'Lection-01'
+title: 'Lection-02'
 ---
 
 ```{r setup, include=FALSE}
