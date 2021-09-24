@@ -498,7 +498,6 @@ $$R^2_{adj} = 1 - {RSS / (n - d - 1) \over TSS / (n - 1)}$$
 ```
 
 .center[
-<!-- ![Данные Credit](./plots/lection-03_plot-04.png) -->
 ![Данные Credit](./pics/lection-03_pic-03.png)
 ]
 
