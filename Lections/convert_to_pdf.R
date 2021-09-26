@@ -8,10 +8,7 @@
 library('pagedown')
 library('xaringan')
 
-pagedown::chrome_print("./slides_lection_01.Rmd",
-                       browser = "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe")
-
-pagedown::chrome_print("./slides_lection_03.Rmd",
+pagedown::chrome_print("./slides_lection_04.Rmd",
                        browser = "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe")
 
 # pagedown::chrome_print("./slides_lection_01.Rmd",
