@@ -19,11 +19,11 @@
 * `education` – образование, 6 категорий: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School;   
 * `occupation` – род деятельности, 24 категории: Unemployed, Architecture & Engineering, Student, Education&Training&Library, Healthcare Support, Healthcare Practitioners & Technical, Sales & Related, Management, Arts Design Entertainment Sports & Media, Computer & Mathematical, Life Physical Social Science, Personal Care & Service, Community & Social Services, Office & Administrative Support, Construction & Extraction, Legal, Retired, Installation Maintenance & Repair, Transportation & Material Moving, Business & Financial, Protective Service, Food Preparation & Serving Related, Production Occupations, Building & Grounds Cleaning & Maintenance, Farming Fishing & Forestry;   
 * `income` – уровень дохода, долларов: 37500-49999, 62500-74999, 12500-24999, 75000-87499, 50000-62499, 25000-37499, 100000 и выше, 87500-99999, меньше чем 12500;   
-* `Bar` – сколько раз в месяц ходит в бар: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `nan4~8` – от 4 до 8 раз включительно;  
-* `CoffeeHouse` – сколько раз в месяц ходит в кофейню: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `nan4~8` – от 4 до 8 раз включительно;  
-* `CarryAway` – сколько раз в месяц берёт еду навынос: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `nan4~8` – от 4 до 8 раз включительно;  
-* `RestaurantLessThan20` – сколько раз в месяц посещает рестораны с чеком до 20 долларов: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `nan4~8` – от 4 до 8 раз включительно;  
-* `Restaurant20To50` – сколько раз в месяц посещает рестораны с чеком от 20 до 50 долларов: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `nan4~8` – от 4 до 8 раз включительно;  
+* `Bar` – сколько раз в месяц ходит в бар: `never` – никогда, `less1` – менее 1, `1~3` – от 1 до 3 раз, `gt8` – более 8 раз, `4~8` – от 4 до 8 раз включительно, `nan` – нет данных;    
+* `CoffeeHouse` – сколько раз в месяц ходит в кофейню (см. шкалу показателя `Bar`);  
+* `CarryAway` – сколько раз в месяц берёт еду навынос (см. шкалу показателя `Bar`);  
+* `RestaurantLessThan20` – сколько раз в месяц посещает рестораны с чеком до 20 долларов (см. шкалу показателя `Bar`);  
+* `Restaurant20To50` – сколько раз в месяц посещает рестораны с чеком от 20 до 50 долларов (см. шкалу показателя `Bar`);   
 * `toCoupon_GEQ15min` – до ресторана/бара, в который предложен купон, более 15 минут езды (1 – да, 0 – нет);   
 * `toCoupon_GEQ25min` – до ресторана/бара, в который предложен купон, более 25 минут езды (1 – да, 0 – нет);   
 * `direction_same` – ресторана/бара, в который предложен купон, находится по направлению движения (1 – да, 0 – нет);  
