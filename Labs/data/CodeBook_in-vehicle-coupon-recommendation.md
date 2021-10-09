@@ -13,7 +13,7 @@
 * `coupon` – купон: `Restaurant(<$20)` – в ресторан, не более 20 долларов, `Coffee House` – в кофейню, `Carry out & Take away` – еда навынос, `Bar` – в бар, `Restaurant($20-$50)` – в ресторан, от 20 до 50 долларов;   
 * `expiration` – срок действия купона: `1d` – один день, `2h` – 2 часа;   
 * `gender` – пол (`Female` / `Male`);   
-* `age` – возраст: 21, 46, 26, 31, 41, старше 50, 36, моложе 21;   
+* `age` – возраст: 21, 46, 26, 31, 41, старше 50 (`50plus`), 36, моложе 21 (`below21`);   
 * `maritalStatus` – семейное положение: `Unmarried partner` – есть партнёр, неженаты; `Single` – одинок; `Married partner` – есть партнёр, женаты; `Divorced` – в разводе; `Widowed` – вдова/вдовец;   
 * `has_Children` – наличие детей: 1 – да, 0 – нет;   
 * `education` – образование, 6 категорий: Some college - no degree, Bachelors degree, Associates degree, High School Graduate, Graduate degree (Masters or Doctorate), Some High School;   
